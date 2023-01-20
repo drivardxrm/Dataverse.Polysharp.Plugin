@@ -40,7 +40,7 @@ jobs:
         run: echo "SOLUTION_NAME=${{ steps.split_slash.outputs._1 }}" >> $GITHUB_ENV
       
       - name: Solution Version
-        run: echo "SOLUTION_VERSION=${{ steps.split_underscore.outputs._1 }}" >> $GITHUB_ENV
+        run: echo "SOLUTION_VERSION=${{ steps.split_underscore.outputs._1 }}.${{ steps.split_underscore.outputs._2 }}.${{ steps.split_underscore.outputs._3 }}.${{ steps.split_underscore.outputs._4 }}" >> $GITHUB_ENV
 
       # Unpack the solution
       - uses: microsoft/powerplatform-actions/unpack-solution@v0
@@ -48,7 +48,7 @@ jobs:
         with:
           solution-file: ${{ steps.files.outputs.all }}
           solution-folder: Solutions_Unpacked/${{ env.SOLUTION_NAME }}
-          solution-type: 'Managed'
+          solution-type: 'Unmanaged'
           overwrite-files: true
 
       # Commit the unpacked solution
