@@ -1,5 +1,5 @@
 # Dataverse.Polysharp.Plugin
-Testing the PolySharp library with on a Dataverse plugin project
+Testing the PolySharp library with a Dataverse plugin project
 
 https://github.com/Sergio0694/PolySharp
 
