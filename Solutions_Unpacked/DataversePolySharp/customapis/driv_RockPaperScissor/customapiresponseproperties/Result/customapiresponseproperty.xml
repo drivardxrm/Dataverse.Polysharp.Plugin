@@ -1,0 +1,8 @@
+<customapiresponseproperty uniquename="Result">
+  <displayname default="RockPaperScissor-Out-Result">
+    <label description="RockPaperScissor-Out-Result" languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <name>RockPaperScissor-Out-Result</name>
+  <type>10</type>
+</customapiresponseproperty>

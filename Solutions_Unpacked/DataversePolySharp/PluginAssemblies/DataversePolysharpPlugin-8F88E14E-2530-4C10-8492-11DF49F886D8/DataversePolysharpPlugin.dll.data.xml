@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="Dataverse.Polysharp.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fe0377caa99619e2" PluginAssemblyId="8f88e14e-2530-4c10-8492-11df49f886d8" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/DataversePolysharpPlugin-8F88E14E-2530-4C10-8492-11DF49F886D8/DataversePolysharpPlugin.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="Dataverse.Polysharp.Plugin.RockPaperScissor, Dataverse.Polysharp.Plugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fe0377caa99619e2" PluginTypeId="76bfd0fe-a87e-4785-9ec1-9eb9363c1b1a" Name="Dataverse.Polysharp.Plugin.RockPaperScissor">
+      <FriendlyName>c1abb002-94b0-48b1-ad1b-5fefa7b53c51</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

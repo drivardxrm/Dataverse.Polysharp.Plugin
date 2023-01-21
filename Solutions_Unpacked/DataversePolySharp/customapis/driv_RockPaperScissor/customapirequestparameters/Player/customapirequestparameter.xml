@@ -1,0 +1,9 @@
+<customapirequestparameter uniquename="Player">
+  <displayname default="RockPaperScissor-In-Player">
+    <label description="RockPaperScissor-In-Player" languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <isoptional>0</isoptional>
+  <name>RockPaperScissor-In-Player</name>
+  <type>10</type>
+</customapirequestparameter>

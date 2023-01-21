@@ -1,0 +1,12 @@
+<customapirequestparameter uniquename="Play">
+  <description default="accepted values : rock,paper,scissor">
+    <label description="accepted values : rock,paper,scissor" languagecode="1033" />
+  </description>
+  <displayname default="RockPaperScissor-In-Play">
+    <label description="RockPaperScissor-In-Play" languagecode="1033" />
+  </displayname>
+  <iscustomizable>0</iscustomizable>
+  <isoptional>0</isoptional>
+  <name>RockPaperScissor-In-Play</name>
+  <type>10</type>
+</customapirequestparameter>
